@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kid Pavo — Learning Games for Kids</title>
+<meta name="description" content="Calm, personalized learning games for children aged 1 to 5, with Hindi and English voice. Every session ends with a real-world play idea. Coming soon to Android.">
+<link rel="canonical" href="https://kidpavo.com/">
+<meta name="theme-color" content="#FFF8EE">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kid Pavo">
+<meta property="og:title" content="Kid Pavo — Learning Games for Kids">
+<meta property="og:description" content="Learning games that end with real-world play. Coming soon to Android.">
+<meta property="og:url" content="https://kidpavo.com/">
+<meta property="og:image" content="https://kidpavo.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Kid Pavo wordmark with Pavo the baby penguin waving, and the line: Learning games that end with real-world play.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Mukta:wght@400;500;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Mukta:wght@400;500;700&display=swap"></noscript>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/css/site.css">
+<script src="/assets/pavo.js" defer></script>
+<script src="/js/config.js" defer></script>
+<script src="/js/main.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="wm" href="/"><span aria-hidden="true">k<span class="i">ı</span>d pavo</span><span class="visually-hidden">Kid Pavo home</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#how">How it adapts</a>
+      <a href="#games">Games</a>
+      <a href="#safety">Safety</a>
+      <a href="#faq">FAQ</a>
+      <span class="lang-soon"><span lang="hi">हिन्दी</span> — coming soon</span>
+    </nav>
+    <a class="btn btn--small" href="#notify">Notify me</a>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- 1. Hero -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap">
+    <div>
+      <p class="pill"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9h10v8a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V9Zm1-3.5 1.4 2M16 5.5l-1.4 2M7 8a5 5 0 0 1 10 0" fill="none" stroke="#0E6B66" stroke-width="2" stroke-linecap="round"/></svg>Coming soon to Android</p>
+      <h1 id="hero-title">Learning games that end with real-world play.</h1>
+      <p class="lead">Calm, personalized learning games for children aged 1 to 5. Pavo, a curious baby penguin, plays along in Hindi and English, then sends your child off to play for real. Little ones aged 1 to 2 play together with a grown-up.</p>
+
+      <form class="notify" id="notify-form" novalidate aria-labelledby="notify">
+        <h2 id="notify">Notify me at launch</h2>
+        <p class="muted small">One email when Kid Pavo is ready on Android. Nothing else.</p>
+        <div class="field">
+          <label for="email">Parent email</label>
+          <input type="email" id="email" name="email" autocomplete="email" inputmode="email" required aria-describedby="email-error">
+          <p class="error" id="email-error" aria-live="polite"></p>
+        </div>
+        <fieldset class="field">
+          <legend>Child's age group <span class="opt">(optional)</span></legend>
+          <div class="chips">
+            <label class="chip"><input type="radio" name="age" value="1-2"><span>1–2 years</span></label>
+            <label class="chip"><input type="radio" name="age" value="3-4"><span>3–4 years</span></label>
+            <label class="chip"><input type="radio" name="age" value="5"><span>5 years</span></label>
+          </div>
+        </fieldset>
+        <div class="hp" aria-hidden="true">
+          <label for="website">Leave this empty</label>
+          <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+        </div>
+        <div class="field">
+          <label class="check"><input type="checkbox" name="adult" required aria-describedby="adult-error"> I'm a parent or guardian, 18+</label>
+          <p class="error" id="adult-error" aria-live="polite"></p>
+        </div>
+        <p class="consent">We use your email only to tell you when Kid Pavo launches. See our <a href="/privacy.html">privacy policy</a>.</p>
+        <button class="btn" type="submit">Notify me at launch</button>
+        <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+    <div class="hero-art">
+      <div class="pavo pavo--breath" data-pavo='{"beak":"smile","right":"wave"}' data-label="Pavo the baby penguin waving hello"></div>
+    </div>
+  </div>
+</section>
+
+<!-- 2. How it adapts -->
+<section class="section section--tint" id="how" aria-labelledby="how-title">
+  <div class="wrap">
+    <p class="eyebrow">Personalized difficulty</p>
+    <h2 id="how-title">Games that meet your child where they are</h2>
+    <p class="lead">No levels to grind and no pressure. The games quietly get easier or harder based on how your child plays.</p>
+    <ol class="steps">
+      <li class="step"><h3>Your child plays</h3><p>Short, calm games with Pavo's voice guiding each step.</p></li>
+      <li class="step"><h3>The app notices</h3><p>It sees what feels easy and what feels hard right now.</p></li>
+      <li class="step"><h3>The next game adjusts</h3><p>A little more challenge, or a little more help, so play stays just right.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- 3. Games -->
+<section class="section" id="games" aria-labelledby="games-title">
+  <div class="wrap">
+    <p class="eyebrow">9 games at launch</p>
+    <h2 id="games-title">Small games, real skills</h2>
+    <p class="lead">Each game practises one skill and ends with an idea to try off screen. Shape Puzzle and Color Splash are smart games that adapt as your child plays.</p>
+    <ul class="games">
+      <li class="game" style="--accent:#FF8A73">
+        <div class="glyph"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M19 29v6c0 3 4 3 4 6M31 31v4c0 3-4 3-4 6" stroke="#1B2B44" stroke-width="1.8" fill="none" stroke-linecap="round"/><ellipse cx="18" cy="18" rx="9" ry="11" fill="#FFF8EE"/><ellipse cx="31" cy="21" rx="8" ry="10" fill="#1B2B44"/><path d="M14 13c1-2 3-3 5-3" stroke="#FF8A73" stroke-width="2" stroke-linecap="round" fill="none"/></svg></div>
+        <h3>Balloons</h3>
+        <p class="skill">Hand–eye coordination and colors</p>
+        <p class="life"><b>Off screen:</b> Bat a real balloon back and forth and keep it off the floor.</p>
+      </li>
+      <li class="game" style="--accent:#2F86C8">
+        <div class="glyph"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="12" y="10" width="6" height="9" rx="1.5" fill="#FFF8EE"/><rect x="7" y="18" width="22" height="14" rx="3" fill="#FFF8EE"/><rect x="27" y="11" width="14" height="21" rx="3" fill="#FFF8EE"/><rect x="30" y="14" width="8" height="7" rx="1.5" fill="#2F86C8"/><circle cx="14" cy="35" r="4.5" fill="#1B2B44"/><circle cx="34" cy="35" r="4.5" fill="#1B2B44"/><circle cx="14" cy="35" r="1.6" fill="#FFF8EE"/><circle cx="34" cy="35" r="1.6" fill="#FFF8EE"/></svg></div>
+        <h3>Train</h3>
+        <p class="skill">Matching and putting things in order</p>
+        <p class="life"><b>Off screen:</b> Line up cushions or chappals into a train and say “choo choo!”</p>
+      </li>
+      <li class="game" style="--accent:#FFC94A">
+        <div class="glyph"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="15" cy="28" r="8" fill="#C2472F"/><circle cx="33" cy="28" r="8" fill="#C2472F"/><circle cx="24" cy="18" r="8" fill="#C2472F"/><path d="M24 10c1-3 4-5 7-4-1 3-4 4-7 4Z" fill="#0E6B66"/><g fill="#FFF8EE" font-family="Baloo 2, sans-serif" font-weight="800" font-size="9" text-anchor="middle"><text x="15" y="31">1</text><text x="33" y="31">3</text><text x="24" y="21">2</text></g></svg></div>
+        <h3>Counting Fruits</h3>
+        <p class="skill">Counting and early numbers</p>
+        <p class="life"><b>Off screen:</b> Count the bananas or rotis together at mealtime.</p>
+      </li>
+      <li class="game" style="--accent:#9AD4F5">
+        <div class="glyph"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 8l9 15H5Z" fill="#1B2B44" stroke="#1B2B44" stroke-width="2" stroke-linejoin="round"/><rect x="25" y="9" width="15" height="15" rx="3" fill="#FFF8EE"/><circle cx="16" cy="34" r="8" fill="#0E6B66"/><rect x="26" y="27" width="14" height="14" rx="3" fill="none" stroke="#1B2B44" stroke-width="2" stroke-dasharray="3 3"/></svg></div>
+        <h3>Shape Puzzle <span class="tag">Smart game</span></h3>
+        <p class="skill">Shapes and how pieces fit</p>
+        <p class="life"><b>Off screen:</b> Find a circle, a square and a triangle in your kitchen.</p>
+      </li>
+      <li class="game" style="--accent:#F4A3A8">
+        <div class="glyph"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 9c4 0 5 5 9 5s6 4 4 8 2 7-1 10-7 1-10 4-8 1-10-2-7-3-7-8 3-6 3-10 7-7 12-7Z" fill="#FFF8EE"/><circle cx="20" cy="22" r="4" fill="#0E6B66"/><circle cx="29" cy="20" r="3.5" fill="#FFC94A"/><circle cx="26" cy="29" r="4" fill="#1B2B44"/><circle cx="40" cy="9" r="2.5" fill="#FFF8EE"/><circle cx="8" cy="40" r="2" fill="#FFF8EE"/></svg></div>
+        <h3>Color Splash <span class="tag">Smart game</span></h3>
+        <p class="skill">Naming and sorting colors</p>
+        <p class="life"><b>Off screen:</b> Go on a hunt for three red things around the house.</p>
+      </li>
+      <li class="game" style="--accent:#F5A65B">
+        <div class="glyph"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="12" width="36" height="24" rx="3" fill="#FFF8EE"/><path d="M15 12v24M24 12v24M33 12v24" stroke="#F5A65B" stroke-width="1.5"/><rect x="12" y="12" width="5" height="13" rx="1" fill="#1B2B44"/><rect x="21" y="12" width="5" height="13" rx="1" fill="#1B2B44"/><rect x="30" y="12" width="5" height="13" rx="1" fill="#1B2B44"/></svg></div>
+        <h3>Baby Piano</h3>
+        <p class="skill">Listening, rhythm and cause and effect</p>
+        <p class="life"><b>Off screen:</b> Tap a beat on steel bowls with a spoon and take turns copying it.</p>
+      </li>
+      <li class="game" style="--accent:#6FD0C4">
+        <div class="glyph"><svg viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="21" cy="31" rx="8" ry="7" fill="#1B2B44"/><ellipse cx="11" cy="22" rx="3.2" ry="4" fill="#1B2B44"/><ellipse cx="17" cy="15" rx="3.2" ry="4" fill="#1B2B44"/><ellipse cx="25" cy="15" rx="3.2" ry="4" fill="#1B2B44"/><ellipse cx="31" cy="22" rx="3.2" ry="4" fill="#1B2B44"/><path d="M36 14q4 4 0 8M40 10q7 8 0 16" stroke="#FFF8EE" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg></div>
+        <h3>Animal Sounds</h3>
+        <p class="skill">Listening and animal names</p>
+        <p class="life"><b>Off screen:</b> Spot a crow, cow or dog outside and copy the sound it makes.</p>
+      </li>
+      <li class="game" style="--accent:#1FA39A">
+        <div class="glyph"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 33c5-12 10 4 15-6s9 8 14-3" stroke="#FFF8EE" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M37 7l2 5 5 2-5 2-2 5-2-5-5-2 5-2Z" fill="#FFC94A"/><circle cx="12" cy="13" r="2" fill="#FFF8EE"/></svg></div>
+        <h3>Magic Drawing</h3>
+        <p class="skill">Creativity and finger control</p>
+        <p class="life"><b>Off screen:</b> Draw the same picture with a finger in a tray of flour or rice.</p>
+      </li>
+      <li class="game" style="--accent:#0E6B66">
+        <div class="glyph"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M12 39 24 9l12 30M16.5 28h15" stroke="#FFF8EE" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4.5"/><circle cx="12" cy="39" r="3.5" fill="#FFC94A"/></svg></div>
+        <h3>Letter Tracing</h3>
+        <p class="skill">Letter shapes and early writing</p>
+        <p class="life"><b>Off screen:</b> Trace the letter in sand, or on a steamy bathroom mirror.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- 4. Meet Pavo -->
+<section class="section section--sky" id="pavo" aria-labelledby="pavo-title">
+  <div class="wrap split">
+    <div class="art">
+      <div class="pavo" data-expression="happy" data-label="Pavo smiling with wings open"></div>
+    </div>
+    <div>
+      <p class="bubble">Namaste! <span lang="hi">नमस्ते!</span></p>
+      <h2 id="pavo-title">Meet Pavo</h2>
+      <p>Pavo is a baby penguin with a little sprout on their head. Curious, gentle and patient, Pavo plays alongside your child, notices their effort and celebrates trying, not just right answers. When a child makes a mistake, Pavo says something like “That one is blue. Let's look again.”</p>
+      <p><b>What Pavo never does:</b></p>
+      <ul class="never">
+        <li>Never looks sad or guilty when your child stops playing.</li>
+        <li>Never pressures with streaks or “just one more” prompts.</li>
+        <li>Never pretends to be a person.</li>
+        <li>Never hides behind rewards your child has to unlock.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 5. Screen to life -->
+<section class="section" id="life" aria-labelledby="life-title">
+  <div class="wrap split">
+    <div>
+      <p class="eyebrow">Screen to life</p>
+      <h2 id="life-title">Every session ends with real-world play</h2>
+      <p class="lead">When a session is done, Pavo waves goodbye and suggests one simple thing to do away from the screen, using what's already at home.</p>
+      <ul class="life-cards">
+        <li style="--accent:#FFC94A"><b>After Counting Fruits</b>Count the spoons as you set the table.</li>
+        <li style="--accent:#F4A3A8"><b>After Color Splash</b>Find something yellow on your walk.</li>
+        <li style="--accent:#6FD0C4"><b>After Animal Sounds</b>Moo like a cow, then quack like a duck.</li>
+      </ul>
+    </div>
+    <div class="art">
+      <div class="pavo" data-expression="goodbye" data-label="Pavo waving goodbye next to a ball and a leaf"></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. Safety -->
+<section class="section section--tint" id="safety" aria-labelledby="safety-title">
+  <div class="wrap">
+    <p class="eyebrow">Safety built in</p>
+    <h2 id="safety-title">Made for little hands</h2>
+    <ul class="features">
+      <li class="feature"><div class="ic"><svg viewBox="0 0 28 28" aria-hidden="true"><rect x="6" y="12" width="16" height="12" rx="3" fill="#0E6B66"/><path d="M9.5 12V9a4.5 4.5 0 0 1 9 0v3" stroke="#0E6B66" stroke-width="2.4" fill="none"/><circle cx="14" cy="18" r="2" fill="#FFF8EE"/></svg></div><h3>Child lock</h3><p>Little hands can't accidentally leave the app or open other things.</p></li>
+      <li class="feature"><div class="ic"><svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="15" r="9" stroke="#0E6B66" stroke-width="2.4" fill="none"/><path d="M14 10v5l3 2M11 3.5h6" stroke="#0E6B66" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg></div><h3>Gentle auto close</h3><p>Set a time limit. When it's up, the session ends calmly with a goodbye from Pavo.</p></li>
+      <li class="feature"><div class="ic"><svg viewBox="0 0 28 28" aria-hidden="true"><path d="M4 11a14 14 0 0 1 20 0M7.5 14.5a9 9 0 0 1 13 0M11 18a4 4 0 0 1 6 0" stroke="#0E6B66" stroke-width="2.4" stroke-linecap="round" fill="none"/><circle cx="14" cy="22" r="1.8" fill="#0E6B66"/><path d="M5 4l18 20" stroke="#0E6B66" stroke-width="2.4" stroke-linecap="round"/></svg></div><h3>Works offline</h3><p>Once installed, the games play without internet. Good for travel and patchy networks.</p></li>
+      <li class="feature"><div class="ic"><svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="10" stroke="#0E6B66" stroke-width="2.4" fill="none"/><path d="M7 7l14 14" stroke="#0E6B66" stroke-width="2.4" stroke-linecap="round"/></svg></div><h3>No ads</h3><p>No ads in the games, ever. Nothing pops up in the middle of play.</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- 7. Languages -->
+<section class="section" id="languages" aria-labelledby="lang-title">
+  <div class="wrap">
+    <p class="eyebrow">Hindi + English voice</p>
+    <h2 id="lang-title">Pavo speaks both</h2>
+    <p class="lead">Children hear every instruction out loud, so they don't need to read. Choose Hindi or English voice for your child.</p>
+    <div class="lang-row">
+      <div class="lang-card"><p class="say">Let's play!</p><p class="muted small">English voice</p></div>
+      <div class="lang-card"><p class="say" lang="hi">चलो खेलें!</p><p class="muted small">Hindi voice</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 8. Founder note (PLACEHOLDER: founder replaces all bracketed text) -->
+<section class="section section--sky" id="founder" aria-labelledby="founder-title">
+  <div class="wrap">
+    <div class="note">
+      <span class="draft-flag">Draft placeholder</span>
+      <h2 id="founder-title">A note from our founder</h2>
+      <p>Hi, I'm <span class="ph">[Founder name]</span>. <span class="ph">[One or two lines about you, e.g. parent of a ___-year-old, where you live, what you did before.]</span></p>
+      <p>I started Kid Pavo because <span class="ph">[the moment or problem that made you start]</span>. I wanted screen time that feels calm, speaks the languages we use at home, and ends by sending children back to real play.</p>
+      <p><span class="ph">[What you promise parents about how Kid Pavo is made.]</span></p>
+      <p>— <span class="ph">[Founder name]</span>, <span class="ph">[city]</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- 9. FAQ -->
+<section class="section" id="faq" aria-labelledby="faq-title">
+  <div class="wrap">
+    <h2 id="faq-title">Questions parents ask</h2>
+    <div class="faq">
+      <details><summary>What ages is Kid Pavo for?</summary><div><p>Ages 1 to 5. For ages 1 to 2, Kid Pavo is made for playing together with a grown-up, side by side, for a few minutes at a time. Children aged 3 to 5 can play more on their own, with you nearby.</p></div></details>
+      <details><summary>Does it work offline?</summary><div><p>Yes. Once the app is installed, the games work without an internet connection.</p></div></details>
+      <details><summary>Which languages does it speak?</summary><div><p>Pavo speaks Hindi and English, and every instruction is voiced. A full Hindi version of this website is coming later.</p></div></details>
+      <details><summary>When does it launch?</summary><div><p>Very soon, on Android first. Leave your email above and we'll send one message when it's ready.</p></div></details>
+      <details><summary>What data do you collect?</summary><div><p>On this website, only your email and, if you choose, your child's age group, to tell you about the launch. No analytics, no cookies, no trackers. Read the <a href="/privacy.html">privacy policy</a>. We'll publish the app's privacy details before launch.</p></div></details>
+      <details><summary>How much will it cost?</summary><div><p>We'll share pricing before launch.</p></div></details>
+    </div>
+  </div>
+</section>
+
+<section class="section cta-band" aria-labelledby="cta-title">
+  <div class="wrap">
+    <h2 id="cta-title">Be the first to know</h2>
+    <p>One email when Kid Pavo is ready on Android.</p>
+    <a class="btn" href="#notify">Notify me at launch</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="wm" href="/"><span aria-hidden="true">k<span class="i">ı</span>d pavo</span><span class="visually-hidden">Kid Pavo home</span></a>
+    <div class="row">
+      <a href="/privacy.html">Privacy policy</a>
+      <span class="lang-soon"><span lang="hi">हिन्दी</span> — coming soon</span>
+      <span>© 2026 Kid Pavo</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -11,7 +11,8 @@ js/config.js        SIGNUP_ENDPOINT, the Google Apps Script URL
 js/main.js          renders Pavo art + handles the notify-me form
 assets/tokens.css   copy of brand/tokens/tokens.css (font @import removed)
 assets/pavo.js      copy of brand/src/pavo.js
-favicon.svg, og-image.png (+ .svg source), robots.txt, sitemap.xml
+favicon.svg, og-image.png (+ .svg source), logo-512.png, apple-touch-icon.png (from logo.svg)
+robots.txt, sitemap.xml, llms.txt, <key>.txt (IndexNow key)
 google-apps-script/Code.gs   sign-up receiver (not deployed with the site; paste into Apps Script)
 ```
 
@@ -57,6 +58,22 @@ That refreshes `assets/`, `favicon.svg` and `og-image.svg`. Re-make `og-image.pn
 ```bash
 "/c/Program Files (x86)/Microsoft/Edge/Application/msedge.exe" --headless=new --hide-scrollbars --window-size=1200,630 --virtual-time-budget=5000 --screenshot="$(pwd -W)/og-image.png" "file:///$(pwd -W)/og-image.svg"
 ```
+
+## SEO and AI search
+
+After editing any copy in `index.html`, run from the repo root (regenerates JSON-LD, `llms.txt`, sitemap dates):
+
+```bash
+node tools/build-seo.js
+```
+
+After each deploy, ping Bing/ChatGPT search via IndexNow:
+
+```bash
+node tools/indexnow.js
+```
+
+Full strategy and the founder checklist: `docs/SEO-AI-VISIBILITY.md`.
 
 ## Before going live
 

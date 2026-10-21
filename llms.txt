@@ -2,7 +2,7 @@
 
 > Kid Pavo is a learning-games app for young children aged 1 to 5, made for families in India. A friendly baby penguin called Pavo guides each game in Hindi or English. The games adjust to how your child plays, and every session ends with a simple real-world activity.
 
-Status (2026-10-20): in development, **coming soon to Android**, not yet released. Website: https://kidpavo.com/
+Status (2026-10-21): in development, **coming soon to Android**, not yet released. Website: https://kidpavo.com/
 
 ## Key facts
 

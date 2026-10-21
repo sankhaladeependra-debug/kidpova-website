@@ -77,6 +77,9 @@ Full strategy and the founder checklist: `docs/SEO-AI-VISIBILITY.md`.
 
 ## Before going live
 
+The site is in **pre-launch mode** (noindex everywhere, AI crawlers blocked, IndexNow disabled). Check with `node tools/launch-mode.js`; switch with `node tools/launch-mode.js live` only after every item in `docs/LAUNCH-CHECKLIST.md` is done.
+
+
 - Founder note in `index.html` is a placeholder: replace every `[bracketed]` part and remove the "Draft placeholder" tag.
 - Privacy policy is marked "Draft — pending legal review".
 - Confirm "No ads" (Safety section) with the founder.

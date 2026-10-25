@@ -189,6 +189,7 @@ fieldset { border: 0; padding: 0; margin: 0; }
 @media (min-width: 640px) {
   .steps { grid-template-columns: repeat(3, 1fr); }
   .features { grid-template-columns: repeat(2, 1fr); }
+  .feature:last-child:nth-child(odd) { grid-column: 1 / -1; }
   .games, .life-cards { grid-template-columns: repeat(2, 1fr); }
   .notify { padding: 26px; }
 }
@@ -199,7 +200,10 @@ fieldset { border: 0; padding: 0; margin: 0; }
   .hero .wrap { grid-template-columns: 1.15fr .85fr; align-items: center; gap: 48px; }
   .hero-art { order: 0; width: 100%; max-width: 400px; }
   .games { grid-template-columns: repeat(3, 1fr); }
-  .features { grid-template-columns: repeat(4, 1fr); }
+  /* 5 cards: 3 on the first row, 2 wider ones below */
+  .features { grid-template-columns: repeat(6, 1fr); }
+  .feature { grid-column: span 2; }
+  .feature:nth-child(n+4), .feature:last-child:nth-child(odd) { grid-column: span 3; }
   .split .life-cards { grid-template-columns: 1fr; }
   .split { grid-template-columns: .8fr 1.2fr; gap: 56px; }
   .split .art { width: 100%; max-width: 320px; }

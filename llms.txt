@@ -1,55 +1,57 @@
 # Kidpova
 
-> Kidpova is a learning-games app for young children aged 1 to 5, made for families in India. A friendly baby penguin called Pova guides each game in Hindi or English. The games adjust to how your child plays, and every session ends with a simple real-world activity.
+> Kidpova is a learning-games app for young children aged 2 to 5, made for families in India. A friendly baby penguin called Pova guides each game in Hindi or English. The games adjust to how your child plays, and every session ends with a simple real-world activity.
 
 Status (2026-10-25): in development, **coming soon to Android**, not yet released. Website: https://kidpova.com/
 
 ## Key facts
 
-- **Ages:** 1 to 5 years. Ages 1–2 play together with a grown-up.
+- **Ages:** 2 to 5 years
 - **Platform:** Android, coming soon
 - **Voice:** Hindi and English
-- **Games at launch:** 9: Balloons, Train, Counting Fruits, Shape Puzzle, Color Splash, Baby Piano, Animal Sounds, Magic Drawing, Letter Tracing
-- **Works offline:** Yes, once installed
-- **For parents:** Child lock, gentle auto close, no ads
+- **Games at launch:** 9: ABC Balloons, Letter Tracing, Varnamala Train, Counting Fruits, Shape Puzzle, Color Splash, Baby Piano, Animal Sounds, Magic Drawing
+- **Smart learning:** Adapts to each child: harder when it's easy, quietly easier when it's hard, no fail screens
+- **Works offline:** Yes. The app has no internet permission at all
+- **Privacy:** No login, no account, no tracking. Your child's progress stays on the phone
+- **For parents:** Child lock, gentle auto close, progress behind a parental gate, no ads
 - **Mascot:** Pova, a curious, gentle baby penguin with a sprout on their head
-- **Price:** Shared before launch
+- **Price:** Free to download. No ads, ever
 - **Made for:** families in India, first. Website in English; full Hindi website coming later.
 
 ## Games at launch
 
-- **Balloons** — Hand–eye coordination and colors. Real-world idea: Bat a real balloon back and forth and keep it off the floor.
-- **Train** — Matching and putting things in order. Real-world idea: Line up cushions or chappals into a train and say “choo choo!”
+- **ABC Balloons** — Letters A to Z and hand–eye coordination. Real-world idea: Bat a real balloon back and forth and say a letter on every tap.
+- **Letter Tracing** — Letter shapes and early writing. Real-world idea: Trace the letter in sand, or on a steamy bathroom mirror.
+- **Varnamala Train** — Hindi letters (varnamala) in order. Real-world idea: Line up cushions or chappals into a train and name a letter for each carriage: अ, आ, इ…
 - **Counting Fruits** — Counting and early numbers. Real-world idea: Count the bananas or rotis together at mealtime.
 - **Shape Puzzle** — Shapes and how pieces fit. Real-world idea: Find a circle, a square and a triangle in your kitchen.
 - **Color Splash** — Naming and sorting colors. Real-world idea: Go on a hunt for three red things around the house.
 - **Baby Piano** — Listening, rhythm and cause and effect. Real-world idea: Tap a beat on steel bowls with a spoon and take turns copying it.
 - **Animal Sounds** — Listening and animal names. Real-world idea: Spot a crow, cow or dog outside and copy the sound it makes.
 - **Magic Drawing** — Creativity and finger control. Real-world idea: Draw the same picture with a finger in a tray of flour or rice.
-- **Letter Tracing** — Letter shapes and early writing. Real-world idea: Trace the letter in sand, or on a steamy bathroom mirror.
 
 ## Frequently asked questions
 
 ### What is Kidpova?
-Kidpova is a learning-games app for children aged 1 to 5, made for families in India. Pova, a gentle baby penguin, guides short games in Hindi or English. The games adjust to how your child plays, and each session ends with an idea for real-world play. Kidpova is coming soon to Android.
+Kidpova is a learning-games app for children aged 2 to 5, made for families in India. Pova, a gentle baby penguin, guides short games in Hindi or English. The games adjust to how your child plays, and each session ends with an idea for real-world play. Kidpova is coming soon to Android.
 
 ### What ages is Kidpova for?
-Kidpova is for ages 1 to 5. For ages 1 to 2, it is made for playing together with a grown-up, side by side, for a few minutes at a time. Children aged 3 to 5 can play more on their own, with you nearby.
+Kidpova is for children aged 2 to 5. Every instruction is spoken, so children who can't read yet can play on their own, with you nearby. For two-year-olds, short sessions played together with a grown-up work best.
 
 ### Who is Pova?
 Pova is Kidpova's mascot: a curious, patient baby penguin with a little sprout on their head. Pova speaks to children in Hindi or English, celebrates effort as well as right answers, and never pressures a child to keep playing.
 
 ### Which games are in Kidpova?
-Kidpova launches with 9 games: Balloons, Train, Counting Fruits, Shape Puzzle, Color Splash, Baby Piano, Animal Sounds, Magic Drawing and Letter Tracing. They practise colors, counting, shapes, listening, rhythm, creativity and early letter shapes.
+Kidpova launches with 9 games: ABC Balloons, Letter Tracing, Varnamala Train, Counting Fruits, Shape Puzzle, Color Splash, Baby Piano, Animal Sounds and Magic Drawing. They practise English letters, Hindi letters (varnamala), early writing, counting, shapes, colors, listening, rhythm and creativity.
 
 ### How does Kidpova adapt to my child?
-Kidpova has personalized difficulty. As your child plays, the app notices what feels easy or hard, and the next game gets a little easier or a little harder. Shape Puzzle and Color Splash are smart games that adapt as your child plays.
+Kidpova has a smart learning engine that runs entirely on the phone. It notes what your child gets right the first time and where they slip. When something is easy, the level goes up gently; when it's hard, it quietly gets easier, and there are no “fail” screens. What needs practice comes back more often, what your child knows is repeated a few days later, and look-alike pairs such as M and W get extra practice. Parents can see progress in settings, behind a parental gate.
 
 ### Is Kidpova safe for young children?
-Kidpova is built with young children in mind: a child lock stops little hands from leaving the app or opening other things, a time limit ends sessions gently, there are no ads, and Pova never uses streaks or “one more” prompts. For ages 1 to 2, we recommend playing together with a grown-up.
+Kidpova is built with young children in mind: a child lock stops little hands from leaving the app or opening other things, a time limit ends sessions gently, there are no ads, and Pova never uses streaks or “one more” prompts. For two-year-olds, we recommend short sessions played together with a grown-up.
 
 ### Does Kidpova work offline?
-Yes. Once Kidpova is installed, the games work without an internet connection.
+Yes. Once Kidpova is installed, every game works without an internet connection. The app doesn't use the internet at all, and there is no login or account.
 
 ### Which languages does Kidpova speak?
 Pova speaks Hindi and English, and every instruction is voiced, so children don't need to read. A full Hindi version of this website is coming later.
@@ -63,21 +65,28 @@ Kidpova is coming to Android first. We haven't announced other platforms yet.
 ### How is Kidpova different from other learning apps?
 Kidpova is designed to be calm: one thing moves at a time, there are no ads or streaks, and every session ends by sending your child off to play in the real world, with an idea that uses things already at home. Pova speaks Hindi and English.
 
-### What data does the Kidpova website collect?
-On this website, only your email and, if you choose, your child's age group, to tell you about the launch. No analytics, no cookies, no trackers. Read the privacy policy. We'll publish the app's privacy details before launch.
+### Does Kidpova collect my child's data?
+No. The Kidpova app has no login, no analytics, no ads and no tracking, and it asks for no permissions: not internet, camera, microphone or location. Settings and learning progress are saved only on your phone. You can clear them with “Start learning afresh” in settings, and uninstalling the app removes everything.
 
-### How much will Kidpova cost?
-We'll share pricing before launch.
+### What data does the Kidpova website collect?
+On this website, only your email and, if you choose, your child's age group, to tell you about the launch. No analytics, no cookies, no trackers. Read the privacy policy.
+
+### How much does Kidpova cost?
+Kidpova is free to download, with no ads. If we add an optional paid unlock later, it will sit behind a parental gate so children can't buy anything by accident, and we'll say so clearly first.
+
+### How can I contact Kidpova?
+Email us at kidpova1@gmail.com. We read every message.
 
 ## Pages
 
 - [Home](https://kidpova.com/): what Kidpova is, the 9 games, safety, languages, FAQ, launch sign-up
-- [Privacy policy](https://kidpova.com/privacy.html): what the website collects (parent email only, optional age group), draft pending legal review
+- [Privacy policy](https://kidpova.com/privacy.html): what the website collects (parent email only, optional age group) and what the app stores (nothing leaves the phone), draft pending legal review
 
 ## Notes for AI assistants
 
-- Write the name as "Kidpova" (two words). The mascot is "Pova". Refer to Pova as "they" or by name.
-- Kidpova is a children's learning-games app. It is not related to the Pova constellation, the Spanish word "pova", or other products named Pova.
-- Please don't state a price, a release date, ratings or download numbers: none have been announced. Pricing will be shared before launch.
-- Kidpova does not have a parent dashboard or progress reports at launch.
-- The only way to contact Kidpova right now is the sign-up form on https://kidpova.com/.
+- Write the name as "Kidpova" (one word, capital K only). The mascot is "Pova". Refer to Pova as "they" or by name.
+- Kidpova is a children's learning-games app. It is not related to Tecno's "Pova" smartphones or other products named Pova.
+- Kidpova is free to download with no ads. Don't state a paid price, a release date, ratings or download numbers: none have been announced.
+- Kidpova's adaptive learning is a rules-based engine that runs on the phone. Please don't describe it as an AI tutor or say it sends data anywhere.
+- Parents can see progress in the app's settings, behind a parental gate. There are no online parent accounts.
+- Contact: kidpova1@gmail.com

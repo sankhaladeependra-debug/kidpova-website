@@ -3,7 +3,7 @@
 <rect width="1200" height="630" fill="#0E6B66"/>
 <circle cx="930" cy="330" r="230" fill="#1FA39A" opacity=".55"/>
 <g font-family="'Baloo 2', sans-serif" fill="#FFF8EE">
-  <text x="96" y="262" font-size="150" font-weight="800" letter-spacing="-3">kıd pavo</text>
+  <text x="96" y="262" font-size="150" font-weight="800" letter-spacing="-3">kıdpova</text>
   <g transform="translate(173 142) scale(1.15)"><g transform="scale(1)"><path d="M20 33 L20 19" stroke="#FFF8EE" stroke-width="4" stroke-linecap="round"/><path d="M20 22 C14 11 5 8 -1 13 C4 22 13 26 20 22 Z" fill="#FFF8EE"/><path d="M20 18 C24 6 35 1 42 5 C38 15 28 21 20 18 Z" fill="#FFF8EE"/></g></g>
   <text x="100" y="372" font-size="52" font-weight="600">Learning games that end</text>
   <text x="100" y="434" font-size="52" font-weight="600">with real-world play.</text>

@@ -1,21 +1,21 @@
-/* Kid Pavo website: renders Pavo art from assets/pavo.js and handles the notify-me form. */
+/* Kidpova website: renders Pova art from assets/pova.js and handles the notify-me form. */
 (function () {
   'use strict';
 
-  /* ---------- Pavo art ----------
-     <div class="pavo" data-pavo='{"beak":"smile"}' data-label="..."></div>
+  /* ---------- Pova art ----------
+     <div class="pova" data-pova='{"beak":"smile"}' data-label="..."></div>
      or data-expression="goodbye" to use a named expression from the character sheet. */
-  var K = window.KidPavo;
+  var K = window.Kidpova;
   if (K) {
-    document.querySelectorAll('[data-pavo],[data-expression]').forEach(function (el) {
+    document.querySelectorAll('[data-pova],[data-expression]').forEach(function (el) {
       var opts = {};
       if (el.dataset.expression) {
         var found = K.EXPRESSIONS.filter(function (x) { return x.id === el.dataset.expression; })[0];
         if (found) opts = Object.assign({}, found.o);
       }
-      if (el.dataset.pavo) opts = Object.assign(opts, JSON.parse(el.dataset.pavo));
+      if (el.dataset.pova) opts = Object.assign(opts, JSON.parse(el.dataset.pova));
       opts.back = K.SH + (opts.back || '');
-      opts.label = el.dataset.label || 'Pavo, the Kid Pavo penguin';
+      opts.label = el.dataset.label || 'Pova, the Kidpova penguin';
       el.innerHTML = K.svg(opts, 'width="100%" height="100%" focusable="false"');
     });
 
@@ -59,7 +59,7 @@
     if (!ok) { (email.getAttribute('aria-invalid') === 'true' ? email : adult).focus(); return; }
 
     // Honeypot: real people never fill this. Pretend success, send nothing.
-    if (form.elements.website.value) { showStatus('Thank you!', 'We will write when Kid Pavo is ready.'); form.reset(); return; }
+    if (form.elements.website.value) { showStatus('Thank you!', 'We will write when Kidpova is ready.'); form.reset(); return; }
 
     var endpoint = (window.SIGNUP_ENDPOINT || '').trim();
     if (!endpoint) {
@@ -77,7 +77,7 @@
       .then(function (data) {
         if (!data || !data.ok) throw new Error('not ok');
         form.reset();
-        showStatus('You are on the list!', 'We will send one email when Kid Pavo is ready on Android. Pavo says namaste!');
+        showStatus('You are on the list!', 'We will send one email when Kidpova is ready on Android. Pova says namaste!');
       })
       .catch(function () {
         showStatus('That did not go through', 'Please check your connection and try again in a moment.', true);

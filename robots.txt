@@ -1,4 +1,4 @@
-# PRE-LAUNCH: kidpavo.com is not ready yet. Please do not index or train on it.
+# PRE-LAUNCH: kidpova.com is not ready yet. Please do not index or train on it.
 # Switch with: node tools/launch-mode.js live   (see docs/LAUNCH-CHECKLIST.md)
 # Googlebot and Bingbot may fetch pages only so they can see the "noindex" on every page and header.
 User-agent: Googlebot

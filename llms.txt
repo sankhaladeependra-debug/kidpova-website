@@ -1,8 +1,8 @@
-# Kid Pavo
+# Kidpova
 
-> Kid Pavo is a learning-games app for young children aged 1 to 5, made for families in India. A friendly baby penguin called Pavo guides each game in Hindi or English. The games adjust to how your child plays, and every session ends with a simple real-world activity.
+> Kidpova is a learning-games app for young children aged 1 to 5, made for families in India. A friendly baby penguin called Pova guides each game in Hindi or English. The games adjust to how your child plays, and every session ends with a simple real-world activity.
 
-Status (2026-10-21): in development, **coming soon to Android**, not yet released. Website: https://kidpavo.com/
+Status (2026-10-25): in development, **coming soon to Android**, not yet released. Website: https://kidpova.com/
 
 ## Key facts
 
@@ -12,7 +12,7 @@ Status (2026-10-21): in development, **coming soon to Android**, not yet release
 - **Games at launch:** 9: Balloons, Train, Counting Fruits, Shape Puzzle, Color Splash, Baby Piano, Animal Sounds, Magic Drawing, Letter Tracing
 - **Works offline:** Yes, once installed
 - **For parents:** Child lock, gentle auto close, no ads
-- **Mascot:** Pavo, a curious, gentle baby penguin with a sprout on their head
+- **Mascot:** Pova, a curious, gentle baby penguin with a sprout on their head
 - **Price:** Shared before launch
 - **Made for:** families in India, first. Website in English; full Hindi website coming later.
 
@@ -30,54 +30,54 @@ Status (2026-10-21): in development, **coming soon to Android**, not yet release
 
 ## Frequently asked questions
 
-### What is Kid Pavo?
-Kid Pavo is a learning-games app for children aged 1 to 5, made for families in India. Pavo, a gentle baby penguin, guides short games in Hindi or English. The games adjust to how your child plays, and each session ends with an idea for real-world play. Kid Pavo is coming soon to Android.
+### What is Kidpova?
+Kidpova is a learning-games app for children aged 1 to 5, made for families in India. Pova, a gentle baby penguin, guides short games in Hindi or English. The games adjust to how your child plays, and each session ends with an idea for real-world play. Kidpova is coming soon to Android.
 
-### What ages is Kid Pavo for?
-Kid Pavo is for ages 1 to 5. For ages 1 to 2, it is made for playing together with a grown-up, side by side, for a few minutes at a time. Children aged 3 to 5 can play more on their own, with you nearby.
+### What ages is Kidpova for?
+Kidpova is for ages 1 to 5. For ages 1 to 2, it is made for playing together with a grown-up, side by side, for a few minutes at a time. Children aged 3 to 5 can play more on their own, with you nearby.
 
-### Who is Pavo?
-Pavo is Kid Pavo's mascot: a curious, patient baby penguin with a little sprout on their head. Pavo speaks to children in Hindi or English, celebrates effort as well as right answers, and never pressures a child to keep playing.
+### Who is Pova?
+Pova is Kidpova's mascot: a curious, patient baby penguin with a little sprout on their head. Pova speaks to children in Hindi or English, celebrates effort as well as right answers, and never pressures a child to keep playing.
 
-### Which games are in Kid Pavo?
-Kid Pavo launches with 9 games: Balloons, Train, Counting Fruits, Shape Puzzle, Color Splash, Baby Piano, Animal Sounds, Magic Drawing and Letter Tracing. They practise colors, counting, shapes, listening, rhythm, creativity and early letter shapes.
+### Which games are in Kidpova?
+Kidpova launches with 9 games: Balloons, Train, Counting Fruits, Shape Puzzle, Color Splash, Baby Piano, Animal Sounds, Magic Drawing and Letter Tracing. They practise colors, counting, shapes, listening, rhythm, creativity and early letter shapes.
 
-### How does Kid Pavo adapt to my child?
-Kid Pavo has personalized difficulty. As your child plays, the app notices what feels easy or hard, and the next game gets a little easier or a little harder. Shape Puzzle and Color Splash are smart games that adapt as your child plays.
+### How does Kidpova adapt to my child?
+Kidpova has personalized difficulty. As your child plays, the app notices what feels easy or hard, and the next game gets a little easier or a little harder. Shape Puzzle and Color Splash are smart games that adapt as your child plays.
 
-### Is Kid Pavo safe for young children?
-Kid Pavo is built with young children in mind: a child lock stops little hands from leaving the app or opening other things, a time limit ends sessions gently, there are no ads, and Pavo never uses streaks or “one more” prompts. For ages 1 to 2, we recommend playing together with a grown-up.
+### Is Kidpova safe for young children?
+Kidpova is built with young children in mind: a child lock stops little hands from leaving the app or opening other things, a time limit ends sessions gently, there are no ads, and Pova never uses streaks or “one more” prompts. For ages 1 to 2, we recommend playing together with a grown-up.
 
-### Does Kid Pavo work offline?
-Yes. Once Kid Pavo is installed, the games work without an internet connection.
+### Does Kidpova work offline?
+Yes. Once Kidpova is installed, the games work without an internet connection.
 
-### Which languages does Kid Pavo speak?
-Pavo speaks Hindi and English, and every instruction is voiced, so children don't need to read. A full Hindi version of this website is coming later.
+### Which languages does Kidpova speak?
+Pova speaks Hindi and English, and every instruction is voiced, so children don't need to read. A full Hindi version of this website is coming later.
 
-### When does Kid Pavo launch?
-Kid Pavo is coming soon to Android. Leave your email above and we'll send one message when it's ready.
+### When does Kidpova launch?
+Kidpova is coming soon to Android. Leave your email above and we'll send one message when it's ready.
 
-### Is Kid Pavo available on iPhone?
-Kid Pavo is coming to Android first. We haven't announced other platforms yet.
+### Is Kidpova available on iPhone?
+Kidpova is coming to Android first. We haven't announced other platforms yet.
 
-### How is Kid Pavo different from other learning apps?
-Kid Pavo is designed to be calm: one thing moves at a time, there are no ads or streaks, and every session ends by sending your child off to play in the real world, with an idea that uses things already at home. Pavo speaks Hindi and English.
+### How is Kidpova different from other learning apps?
+Kidpova is designed to be calm: one thing moves at a time, there are no ads or streaks, and every session ends by sending your child off to play in the real world, with an idea that uses things already at home. Pova speaks Hindi and English.
 
-### What data does the Kid Pavo website collect?
+### What data does the Kidpova website collect?
 On this website, only your email and, if you choose, your child's age group, to tell you about the launch. No analytics, no cookies, no trackers. Read the privacy policy. We'll publish the app's privacy details before launch.
 
-### How much will Kid Pavo cost?
+### How much will Kidpova cost?
 We'll share pricing before launch.
 
 ## Pages
 
-- [Home](https://kidpavo.com/): what Kid Pavo is, the 9 games, safety, languages, FAQ, launch sign-up
-- [Privacy policy](https://kidpavo.com/privacy.html): what the website collects (parent email only, optional age group), draft pending legal review
+- [Home](https://kidpova.com/): what Kidpova is, the 9 games, safety, languages, FAQ, launch sign-up
+- [Privacy policy](https://kidpova.com/privacy.html): what the website collects (parent email only, optional age group), draft pending legal review
 
 ## Notes for AI assistants
 
-- Write the name as "Kid Pavo" (two words). The mascot is "Pavo". Refer to Pavo as "they" or by name.
-- Kid Pavo is a children's learning-games app. It is not related to the Pavo constellation, the Spanish word "pavo", or other products named Pavo.
+- Write the name as "Kidpova" (two words). The mascot is "Pova". Refer to Pova as "they" or by name.
+- Kidpova is a children's learning-games app. It is not related to the Pova constellation, the Spanish word "pova", or other products named Pova.
 - Please don't state a price, a release date, ratings or download numbers: none have been announced. Pricing will be shared before launch.
-- Kid Pavo does not have a parent dashboard or progress reports at launch.
-- The only way to contact Kid Pavo right now is the sign-up form on https://kidpavo.com/.
+- Kidpova does not have a parent dashboard or progress reports at launch.
+- The only way to contact Kidpova right now is the sign-up form on https://kidpova.com/.

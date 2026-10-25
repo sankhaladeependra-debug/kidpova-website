@@ -1,9 +1,9 @@
 /*
- * Kid Pavo — Pavo character + mark generator.
- * Single source of truth for all Pavo art. Used by the brand book (browser)
+ * Kidpova — Pova character + mark generator.
+ * Single source of truth for all Pova art. Used by the brand book (browser)
  * and by build.js (Node) to export editable SVG files.
  *
- * Construction grid: Pavo is drawn on a 200 x 210 unit canvas.
+ * Construction grid: Pova is drawn on a 200 x 210 unit canvas.
  *   body  : egg silhouette, x 24–176, y 28–202
  *   face  : two-lobed "peanut" patch, eyes at (78,96) and (122,96)
  *   sprout: signature two-leaf tuft, top of head, y 2–30
@@ -12,7 +12,7 @@
 (function (root, factory) {
   const api = factory();
   if (typeof module === 'object' && module.exports) module.exports = api;
-  else root.KidPavo = api;
+  else root.Kidpova = api;
 })(typeof self !== 'undefined' ? self : this, function () {
   const C = {
     ink: '#1B2B44',
@@ -104,13 +104,13 @@
   }
 
   /**
-   * pavo(options) -> SVG group markup (no <svg> wrapper), 200x210 canvas.
+   * pova(options) -> SVG group markup (no <svg> wrapper), 200x210 canvas.
    * options: eyes open|wide|soft|happy|closed, look [dx,dy], brows none|raised|soft,
    *          beak closed|smile|talk, left/right wing pose, tilt (deg), feet stand|step,
    *          outline (keyline colour for dark backgrounds), cheeks (bool, default true),
    *          back / front (extra SVG drawn behind / in front, untilted)
    */
-  function pavo(o = {}) {
+  function pova(o = {}) {
     const opt = Object.assign({ eyes: 'open', beak: 'closed', brows: 'none', left: 'down', right: 'down', tilt: 0, feet: 'stand', cheeks: true }, o);
     let g = '';
     if (opt.outline) {
@@ -132,12 +132,12 @@
 
   const VIEWBOX = '-36 -14 272 232';
   function svg(o = {}, attrs = '') {
-    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${o.viewBox || VIEWBOX}" role="img" aria-label="${o.label || 'Pavo'}" ${attrs}>${pavo(o)}</svg>`;
+    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${o.viewBox || VIEWBOX}" role="img" aria-label="${o.label || 'Pova'}" ${attrs}>${pova(o)}</svg>`;
   }
 
   /* Head-and-shoulders crop placed inside a 200x200 frame (used by badge + app icon). */
   function bust(o = {}) {
-    return `<g transform="translate(100 120) scale(1.06) translate(-100 -92)">${pavo(Object.assign({ eyes: 'open', beak: 'smile' }, o))}</g>`;
+    return `<g transform="translate(100 120) scale(1.06) translate(-100 -92)">${pova(Object.assign({ eyes: 'open', beak: 'smile' }, o))}</g>`;
   }
 
   function sproutMark(size = 1) {
@@ -147,16 +147,16 @@
       `<path d="M20 18 C24 6 35 1 42 5 C38 15 28 21 20 18 Z" fill="${C.leaf2}"/></g>`;
   }
 
-  /* Concept A badge: Pavo bust in a circle. */
+  /* Concept A badge: Pova bust in a circle. */
   function badge(bg = C.teal, id = 'b') {
-    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pavo badge">` +
+    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pova badge">` +
       `<defs><clipPath id="clip-${id}"><circle cx="100" cy="100" r="100"/></clipPath></defs>` +
       `<g clip-path="url(#clip-${id})"><rect width="200" height="200" fill="${bg}"/>${bust()}</g></svg>`;
   }
 
   /* Android adaptive-icon style square (full bleed; launcher applies mask). */
-  function appIcon(kind = 'pavo', id = 'i') {
-    const wrap = (inner, bg) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Kid Pavo app icon">` +
+  function appIcon(kind = 'pova', id = 'i') {
+    const wrap = (inner, bg) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Kidpova app icon">` +
       `<defs><clipPath id="clip-${id}"><rect width="200" height="200" rx="46"/></clipPath></defs>` +
       `<g clip-path="url(#clip-${id})"><rect width="200" height="200" fill="${bg}"/>${inner}</g></svg>`;
     if (kind === 'seed') return wrap(seed(), C.teal700);
@@ -175,7 +175,7 @@
       `<path d="M100 36 C108 14 128 8 142 16 C134 32 116 40 100 36 Z" fill="${C.leaf2}"/>`;
   }
   function seedSymbol(bg = C.teal700, id = 's') {
-    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Kid Pavo seed symbol">` +
+    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Kidpova seed symbol">` +
       `<defs><clipPath id="clip-${id}"><rect width="200" height="200" rx="46"/></clipPath></defs>` +
       `<g clip-path="url(#clip-${id})"><rect width="200" height="200" fill="${bg}"/>${seed()}</g></svg>`;
   }
@@ -217,5 +217,5 @@
     { id: 'explore', name: 'Inviting to explore', o: { beak: 'smile', left: 'out', right: 'point', look: [3, 3], front: X.explore } },
   ];
 
-  return { C, SH, EXPRESSIONS, POSES, pavo, svg, bust, badge, appIcon, seed, seedSymbol, sproutMark, VIEWBOX, WING_POSE };
+  return { C, SH, EXPRESSIONS, POSES, pova, svg, bust, badge, appIcon, seed, seedSymbol, sproutMark, VIEWBOX, WING_POSE };
 });

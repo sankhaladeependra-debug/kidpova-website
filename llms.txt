@@ -2,7 +2,7 @@
 
 > Kidpova is a learning-games app for young children aged 2 to 5, made for families in India. A friendly baby penguin called Pova guides each game in Hindi or English. The games adjust to how your child plays, and every session ends with a simple real-world activity.
 
-Status (2026-10-25): in development, **coming soon to Android**, not yet released. Website: https://kidpova.com/
+Status (2026-10-30): in development, **coming soon to Android**, not yet released. Website: https://kidpova.com/
 
 ## Key facts
 
@@ -80,7 +80,7 @@ Email us at kidpova1@gmail.com. We read every message.
 ## Pages
 
 - [Home](https://kidpova.com/): what Kidpova is, the 9 games, safety, languages, FAQ, launch sign-up
-- [Privacy policy](https://kidpova.com/privacy.html): what the website collects (parent email only, optional age group) and what the app stores (nothing leaves the phone), draft pending legal review
+- [Privacy policy](https://kidpova.com/privacy.html): what the website collects (parent email only, optional age group) and what the app stores on the phone (settings, child profiles, learning progress; nothing leaves the phone), in English and Hindi
 
 ## Notes for AI assistants
 

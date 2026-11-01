@@ -13,7 +13,7 @@ Status (2026-11-01): in development, **coming soon to Android**, not yet release
 - **Smart learning:** Adapts to each child: harder when it's easy, quietly easier when it's hard, no fail screens
 - **Works offline:** Yes. The app has no internet permission at all
 - **Privacy:** No login, no account, no tracking. Your child's progress stays on the phone
-- **For parents:** Child lock, gentle auto close, progress behind a parental gate, no ads
+- **For parents:** Play time limit (5 to 60 minutes) after which the app closes itself, rest time, choice of 12 topics, progress page (knows well, practising, mix-ups), rewards off until you turn them on, up to 6 child profiles, child lock, all behind a parental gate
 - **Mascot:** Pova, a gentle, playful baby puppy with a blue collar and a star tag
 - **Price:** Free to download. No ads, ever
 - **Made for:** families in India, first. Website in English; full Hindi website coming later.
@@ -50,6 +50,15 @@ Kidpova has a smart learning engine that runs entirely on the phone. It notes wh
 ### Is Kidpova safe for young children?
 Kidpova is built with young children in mind: a child lock stops little hands from leaving the app or opening other things, a time limit ends sessions gently, there are no ads, and Pova never uses streaks or “one more” prompts. For two-year-olds, we recommend short sessions played together with a grown-up.
 
+### Can I limit how long my child plays Kidpova?
+Yes. Behind the parental gate, choose a play time from 5 to 60 minutes. Pova gives a one-minute warning, says goodbye, and the app closes itself. Games stay closed for a rest time you choose, from 5 to 60 minutes. Settings also show how long your child has played today.
+
+### Can I see what my child is learning in Kidpova?
+Yes. The progress page for grown-ups, behind the parental gate, shows each topic's level, what your child knows well, what is getting there, what they are still practising, and which things they mix up, such as b and d. It also shows what they found today and what was new. It all stays on your phone.
+
+### Can I choose what my child learns in Kidpova?
+Yes. In ABC Balloons you can switch on only the topics you want, out of 12: letters, numbers, colours, shapes, animals, fruits, food, vehicles, body parts, clothes, things at home and everyday objects. Food stays vegetarian unless you turn on egg and chicken. Stickers and other rewards are off until you turn them on.
+
 ### Does Kidpova work offline?
 Yes. Once Kidpova is installed, every game works without an internet connection. The app doesn't use the internet at all, and there is no login or account.
 
@@ -63,7 +72,7 @@ Kidpova is coming soon to Android. Leave your email above and we'll send one mes
 Kidpova is coming to Android first. We haven't announced other platforms yet.
 
 ### How is Kidpova different from other learning apps?
-Kidpova is designed to be calm: one thing moves at a time, there are no ads or streaks, and every session ends by sending your child off to play in the real world, with an idea that uses things already at home. Pova speaks Hindi and English.
+Kidpova is designed to be calm: one thing moves at a time, there are no ads or streaks, and every session ends by sending your child off to play in the real world, with an idea that uses things already at home. Parents stay in charge: you set the play time and the app closes itself, you choose the topics, you see what your child knows and mixes up, and rewards stay off unless you turn them on. Games start at your child's age. Pova speaks Hindi and English.
 
 ### Does Kidpova collect my child's data?
 No. The Kidpova app has no login, no analytics, no ads and no tracking, and it asks for no permissions: not internet, camera, microphone or location. Settings and learning progress are saved only on your phone. You can clear them with “Start learning afresh” in settings, and uninstalling the app removes everything.

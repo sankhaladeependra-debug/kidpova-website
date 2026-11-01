@@ -1,8 +1,8 @@
 # Kidpova
 
-> Kidpova is a learning-games app for young children aged 2 to 5, made for families in India. A friendly baby penguin called Pova guides each game in Hindi or English. The games adjust to how your child plays, and every session ends with a simple real-world activity.
+> Kidpova is a learning-games app for young children aged 2 to 5, made for families in India. A gentle, playful baby puppy called Pova guides each game in Hindi or English. The games adjust to how your child plays, and every session ends with a simple real-world activity.
 
-Status (2026-10-30): in development, **coming soon to Android**, not yet released. Website: https://kidpova.com/
+Status (2026-11-01): in development, **coming soon to Android**, not yet released. Website: https://kidpova.com/
 
 ## Key facts
 
@@ -14,7 +14,7 @@ Status (2026-10-30): in development, **coming soon to Android**, not yet release
 - **Works offline:** Yes. The app has no internet permission at all
 - **Privacy:** No login, no account, no tracking. Your child's progress stays on the phone
 - **For parents:** Child lock, gentle auto close, progress behind a parental gate, no ads
-- **Mascot:** Pova, a curious, gentle baby penguin with a sprout on their head
+- **Mascot:** Pova, a gentle, playful baby puppy with a blue collar and a star tag
 - **Price:** Free to download. No ads, ever
 - **Made for:** families in India, first. Website in English; full Hindi website coming later.
 
@@ -33,13 +33,13 @@ Status (2026-10-30): in development, **coming soon to Android**, not yet release
 ## Frequently asked questions
 
 ### What is Kidpova?
-Kidpova is a learning-games app for children aged 2 to 5, made for families in India. Pova, a gentle baby penguin, guides short games in Hindi or English. The games adjust to how your child plays, and each session ends with an idea for real-world play. Kidpova is coming soon to Android.
+Kidpova is a learning-games app for children aged 2 to 5, made for families in India. Pova, a gentle, playful baby puppy, guides short games in Hindi or English. The games adjust to how your child plays, and each session ends with an idea for real-world play. Kidpova is coming soon to Android.
 
 ### What ages is Kidpova for?
 Kidpova is for children aged 2 to 5. Every instruction is spoken, so children who can't read yet can play on their own, with you nearby. For two-year-olds, short sessions played together with a grown-up work best.
 
 ### Who is Pova?
-Pova is Kidpova's mascot: a curious, patient baby penguin with a little sprout on their head. Pova speaks to children in Hindi or English, celebrates effort as well as right answers, and never pressures a child to keep playing.
+Pova is Kidpova's mascot: a curious, gentle and playful baby puppy with a blue collar and a star tag. Pova speaks to children in Hindi or English, celebrates effort as well as right answers, and never pressures a child to keep playing.
 
 ### Which games are in Kidpova?
 Kidpova launches with 9 games: ABC Balloons, Letter Tracing, Varnamala Train, Counting Fruits, Shape Puzzle, Color Splash, Baby Piano, Animal Sounds and Magic Drawing. They practise English letters, Hindi letters (varnamala), early writing, counting, shapes, colors, listening, rhythm and creativity.

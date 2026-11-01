@@ -1,29 +1,13 @@
-/* Kidpova website: renders Pova art from assets/pova.js and handles the notify-me form. */
+/* Kidpova website: draws the wordmark's star tag and handles the notify-me form. */
 (function () {
   'use strict';
 
-  /* ---------- Pova art ----------
-     <div class="pova" data-pova='{"beak":"smile"}' data-label="..."></div>
-     or data-expression="goodbye" to use a named expression from the character sheet. */
-  var K = window.Kidpova;
-  if (K) {
-    document.querySelectorAll('[data-pova],[data-expression]').forEach(function (el) {
-      var opts = {};
-      if (el.dataset.expression) {
-        var found = K.EXPRESSIONS.filter(function (x) { return x.id === el.dataset.expression; })[0];
-        if (found) opts = Object.assign({}, found.o);
-      }
-      if (el.dataset.pova) opts = Object.assign(opts, JSON.parse(el.dataset.pova));
-      opts.back = K.SH + (opts.back || '');
-      opts.label = el.dataset.label || 'Pova, the Kidpova penguin';
-      el.innerHTML = K.svg(opts, 'width="100%" height="100%" focusable="false"');
-    });
-
-    // Wordmark sprouts (the dot of the "i").
-    document.querySelectorAll('.wm .i').forEach(function (el) {
-      el.insertAdjacentHTML('beforeend', '<svg viewBox="-2 0 46 35" aria-hidden="true" focusable="false">' + K.sproutMark() + '</svg>');
-    });
-  }
+  /* ---------- Wordmark ----------
+     Pova's yellow star tag (from the collar) is the dot of the "i", as in the app's wordmark. */
+  var STAR = '<svg viewBox="-11 -11 22 21" aria-hidden="true" focusable="false">' +
+    '<path d="M0-9.5 2.47-3.4 9.04-2.94 3.99 1.3 5.58 7.69 0 4.2-5.58 7.69-3.99 1.3-9.04-2.94-2.47-3.4Z" fill="#FFDD3C" stroke="#0868BE" stroke-width="1.8" stroke-linejoin="round"/>' +
+    '<ellipse cx="-1.6" cy="-2.6" rx="1.7" ry="1.1" fill="#FFF7B5"/></svg>';
+  document.querySelectorAll('.wm .i').forEach(function (el) { el.insertAdjacentHTML('beforeend', STAR); });
 
   /* ---------- Notify-me form ---------- */
   var form = document.getElementById('notify-form');

@@ -69,7 +69,7 @@ a:hover { color: var(--ink); }
 /* Pova art: exported from the app's character engine (site/pova/, tools/build-pova-assets.py), never redrawn.
    Square images with width/height set, so space is reserved and nothing shifts. */
 .pova { position: relative; display: block; width: 100%; }
-.pova img { width: 100%; height: auto; }
+.pova img { width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; }
 
 /* Notify form */
 .notify { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 20px; max-width: 520px; box-shadow: 0 8px 24px rgba(16, 40, 74, .06); }
